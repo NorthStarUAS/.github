@@ -20,3 +20,20 @@ hardware without needing a beaglebone host computer.
 The good: a much less expensive and much easier hardware integration. The bad:
 losing all the python code/support for any functionality that is moved to the
 pixhawk (which is C/C++ only.)
+
+For now, I hope this body of code can serve as an example of an alternative
+structure for a UAV flight controller. The design goal is simplicity.  I don't
+know if that shows through, but that is the underlying intent ... easier to
+understand code, structure, and algorithms.  I will do my best to support and
+answer questions and will truly feel bad if I am slow or unable to respond.
+
+For the future, I do truly intend to pick this work back up and continue pushing
+it forward.  I thoroughly enjoy the process of writing and testing my own flight
+controller code, and I believe there is room in the world for a simpler approach
+that doesn't attempt to support every vehicle, every sensor, every use case,
+every hardware board, and every idea.
+
+If someone spends 15 seconds looking at this and thinks, oh, that's a little
+cool, then I guess I'm happy enough. :-)  If some of these ideas and design
+patterns seem interesting and make it into your own future work, then that would
+be a big success.
