@@ -24,7 +24,7 @@ pixhawk (which is C/C++ only.)
 For now, I hope this body of code can serve as an example of an alternative
 structure for a UAV flight controller. The design goal is simplicity.  I don't
 know if that shows through, but that is the underlying intent ... easier to
-understand code, structure, and algorithms.  I will do my best to support and
+understand code, structures, and algorithms.  I will do my best to support and
 answer questions and will truly feel bad if I am slow or unable to respond.
 
 For the future, I do truly intend to pick this work back up and continue pushing
