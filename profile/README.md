@@ -1,6 +1,6 @@
 # Project update(s)
 
-February 19, 2023: What's in a name?
+## February 19, 2023: What's in a name?
 
 In the Spring of 2022 I had an unrequested job change situation dropped in my lap.
 In the Fall of 2022 we moved from a wonderful neighborhood near Rice Creek in the
@@ -11,7 +11,9 @@ and as I go through various sections of code, I may do arbitrary variable and fi
 name changes to reflect the new project name a bit better.  And there may be things
 I don't touch that still have the old name.  It will be a work in progress.
 
-January 7, 2023: I just wanted to post a quick public note on the development
+## January 7, 2023: Status Update.
+
+I just wanted to post a quick public note on the development
 status of this project.  In the spring of 2022 I lost the funding for my job at
 the University of Minnesota.  This was stressful!  Thankfully I was able to find
 a new position at a great company called Cirrus Aircraft.  However, getting up
