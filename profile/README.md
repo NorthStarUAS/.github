@@ -11,8 +11,9 @@ company came along and built an RC flight controller and called it Aura so I let
 them have it because they are good guys.  I then changed the name to Rice Creek UAS.
 But because no one much cares about this project or uses anything from it, the name
 really doesn't matter, so I have changed it again to reflect this new chapter of my life!
-North Star UAS circles pack around to the astronomy theme of the original effort
-and reflects the direction my life moves have taken me (further and further north!)
+North Star UAS circles back around to the astronomy theme of the original effort
+and reflects the direction my life moves have taken me, starting in Peru, then AZ,
+then Twin Cities, MN, now Duluth MN.  (So further and further north!)
 Over time and as I go through various sections of code, I may do arbitrary variable and file
 name changes to reflect the new project name a bit better.  And there may be things
 I don't touch that still have the old name.  It will be a work in progress.
