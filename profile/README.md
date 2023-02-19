@@ -4,10 +4,16 @@
 
 In the Spring of 2022 I had an unrequested job change situation dropped in my lap.
 In the Fall of 2022 we moved from a wonderful neighborhood near Rice Creek in the
-Twin Cities (Minnesota, USA) up to the North Woods of Minnesota.  Because no one
-much cares about this project or uses anything from it, the name really doesn't
-matter, so I have changed it to reflect this new chapter of my life!  Over time
-and as I go through various sections of code, I may do arbitrary variable and file
+Twin Cities (Minnesota, USA) up to the North Woods of Minnesota.  The original 
+inspiration for this project was named Avior (a star used for navigation.)  Then 
+when I spun off the pure open-source parts I called them AuraUAS, but a small 
+company came along and built an RC flight controller and called it Aura so I let
+them have it because they are good guys.  I then changed the name to Rice Creek UAS.
+But because no one much cares about this project or uses anything from it, the name
+really doesn't matter, so I have changed it again to reflect this new chapter of my life!
+North Star UAS circles pack around to the astronomy theme of the original effort
+and reflects the direction my life moves have taken me (further and further north!)
+Over time and as I go through various sections of code, I may do arbitrary variable and file
 name changes to reflect the new project name a bit better.  And there may be things
 I don't touch that still have the old name.  It will be a work in progress.
 
