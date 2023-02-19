@@ -1,4 +1,4 @@
-# Project update(s)
+# Project updates
 
 ## February 19, 2023: What's in a name?
 
