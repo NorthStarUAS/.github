@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a collection of all the UAS and mapping related work I've done since the middle 2000's.
+This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.
 
 ## March 20, 2023: Discussions are enabled
 
