@@ -4,6 +4,10 @@
 
 This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.
 
+## April 2024: Working on an approach to developing flight control laws that are fit directly to flight test data.
+
+Advantage: there is almost no need for tuning.  Disadvantage: there is almost no knobs to tune if you don't like the performance.
+
 ## May 2023: Significant effort towards porting the arduipilot eco/build system version of the fmu back to arduino/teensy.
 
 This means further development will not run on commodity pixhaw type hardware but will instead run on arduino and teensy style hardware.  This is more
