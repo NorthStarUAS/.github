@@ -4,6 +4,14 @@
 
 This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.
 
+## December 2024: Pushing forward (and another flight test?)
+
+I would love to find at least one more day in 2024 with light winds, moderate temps, and time in my schedule to go out and test all the fixes and updates since mid-november.  There is also plenty more work to do porting the remaining tasks (parametric path following, glide and excitation tasks, and survey route generation.)  If I get bored with that, I really hope to get back working on my ideas of generating control laws directly from flight test data (just fly around a bit ...) along with generating a functional flight simulator for HIL testing also directly from flight test data.
+
+## November 2024: First Test Flight!
+
+On November 15 I went out and actually test flew all the work so far.  Yes I had missed a few things in testing so the day started out rough as I worked through debugging a couple things, and then after that I got about an hour and 45 minutes of fully autonomous flight, including a successful autoland.  Much of the remainder of November was spent working through the squaks I discovered and working through logfile and post-process scripts to catch up with all the message changes.
+
 ## October 2024: Working towards Aircraft Integration
 
 Continuing tweaks and polishing of code as I work through the next aircraft integration.  For example: I ran into a not-fully-understood issue with parsing sbus input, so I updated to the latest BFS sbus library code and made the corresponding API updates to the calling layers. Hoping for full integration by the end of October with a first flight soon after.
@@ -15,7 +23,3 @@ This summer's efforts to port the entire FMU system from a hybrid beaglebone(lin
 ## August 2024: Porting Route Management, Mission, and Tasks
 
 I successfully spun up a HIL simulation system that is built on top of JSBSim and communicates with the hardware via nsLink (and Messages.)  This enables testing the firmware code on the teensy hardware in simulated flight and allows testing of all the flight control law components as well as the higher level mission and task elements.  Circle holds are working.  The GCS web pages (panel and map) were updated with all the latest property name updates.  Some GCS (map) commands are enabled and working.  More will be added as the backend mission/task code to respond to those commands is ported.  Finally I am working on updating the route manager code to be a lot more embedded system friendly.  Previously it was running on a beaglebone (linux, pi-like) and I didn't worry too much about memory usage or memory fragmentation.
-
-## July 2024: Continued efforts towards freshening many aspects of the project.
-
-The main porting effort to the teensy (from the stalled pixhawk hardware port) is finished.  Next up is beginning to move the higher level guidance and flight control system over to the teensy.  This was previously written in python and intended to run on a beaglebone/raspberry-pi type of host computer.  However I would like to run as much of this system on the teensy as possible.  The short term goal is to get the core flight control laws running along with basic circle holds and route following.  Higher level tasks (such as survey route planning, launch, and land) will hopefully follow time permitting.  Life is always busy, but I am hoping to have the core flight control laws ported, tested (HIL), and then flight tested in an actual model aircraft by the end of 2024 ... fingers crossed!
