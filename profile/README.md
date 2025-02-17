@@ -4,6 +4,10 @@
 
 This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.
 
+## February 2025: Not a lot to report
+
+I have been doing some background cleanup of the simulation and out-the-window view code.  I did a big round of cleanup of the FCS modules and archived all the components I currently have no use-case for ... these can all be brought back when/if needed.  These changes are prep work so I can do prep work to experiment with some model-based controller ideas.
+
 ## January 2025: House cleaning
 
 Less activity this month.  I have been doing some house keeping to make field names more consistently include their units and have been slowly pushing those changes through the ecosystem.  I also separated the Simluator and SysId work into two separate repositories in anticipation of more cleanly packaging the Simulator tools for reuse.
@@ -23,7 +27,3 @@ Continuing tweaks and polishing of code as I work through the next aircraft inte
 ## September 2024: Logging, Real Hardware and Sensors, Aircraft Integration
 
 This summer's efforts to port the entire FMU system from a hybrid beaglebone(linux/python) + teensy(real-time/c++) to all running entirely on a single teensy in c++ has been going well.  The Launch and Land tasks are ported and tested.  Onboard logging is also up and running now.  Logging had been another function that resided on the beaglebone.  Flight data is pushed into a protected ring buffer from the main 100hz interrupt handler and then written [as able] to the SD card in the slack time.  I had been testing on a teensy-4.x but as of today I have the code up and running on a teensy-3.6 (Bolder Flight Systems Marmot board.)  My plan is to integrate this board into my Skywalker for first real test flights of all the software updates.
-
-## August 2024: Porting Route Management, Mission, and Tasks
-
-I successfully spun up a HIL simulation system that is built on top of JSBSim and communicates with the hardware via nsLink (and Messages.)  This enables testing the firmware code on the teensy hardware in simulated flight and allows testing of all the flight control law components as well as the higher level mission and task elements.  Circle holds are working.  The GCS web pages (panel and map) were updated with all the latest property name updates.  Some GCS (map) commands are enabled and working.  More will be added as the backend mission/task code to respond to those commands is ported.  Finally I am working on updating the route manager code to be a lot more embedded system friendly.  Previously it was running on a beaglebone (linux, pi-like) and I didn't worry too much about memory usage or memory fragmentation.
