@@ -4,6 +4,10 @@
 
 This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.
 
+## March and April 2025: Also not a lot to report
+
+Life and work has been busy.  I need to do better at not letting myself get distracted by all the cruelty and attrocities and disasters in the world.  Those are important, but somehow learning about these things on social media and commenting on social media and fretting about them in my head doesn't seem to help any of these situations.  I don't know any answers, I am starting to wonder if no one else does either.  The people who are most certain they know all the answers most certainly do not!
+
 ## February 2025: Not a lot to report
 
 I have been doing some background cleanup of the simulation and out-the-window view code.  I did a big round of cleanup of the FCS modules and archived all the components I currently have no use-case for ... these can all be brought back when/if needed.  These changes are prep work so I can do prep work to experiment with some model-based controller ideas.  No flight testing yet in 2025 due to lack of decent weather.
