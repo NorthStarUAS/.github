@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.
+This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.  Much of this was developed in my time working with Airborne Technologies out of Alaska as well as my time supporting various student and research projcts as a staff research engineer at the University of Minnesota Aerospace Engineer (and Mechanics) department.  This code is all licensed under the MIT license (the preferred license of my research group at UMN.) I continue to wrench on this code in my hobby time.
 
 ## June 2025: Flight Testing
 
