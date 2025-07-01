@@ -4,7 +4,11 @@
 
 This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.
 
-## March and April 2025: Also not a lot to report
+## June 2025: Flight Testing
+
+I managed a day of flight testing.  There aren't major changes just little tweaks and fixes I have been making along the way in response to the previous test flight (last November, yikes, time flies!) I validated the fully autonomous hand launch task continues to work correctly after porting from the old python system to C++ on the teensy.  In the background I have been exploring NiceGUI as a replacement technology for the operator station.  So far this has been really nice!
+
+## March, April, and May 2025: Also not a lot to report
 
 Life and work has been busy.  I need to do better at not letting myself get distracted by all the cruelty and attrocities and disasters in the world.  Those are important, but somehow learning about these things on social media and commenting on social media and fretting about them in my head doesn't seem to help any of these situations.  I don't know any answers, I am starting to wonder if no one else does either.  The people who are most certain they know all the answers most certainly do not!
 
