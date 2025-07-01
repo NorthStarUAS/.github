@@ -6,7 +6,7 @@ This is a collection of all the UAS, flight control, EKF, ground station, data a
 
 ## June 2025: Flight Testing
 
-I managed a day of flight testing.  There aren't major changes just little tweaks and fixes I have been making along the way in response to the previous test flight (last November, yikes, time flies!) I validated the fully autonomous hand launch task continues to work correctly after porting from the old python system to C++ on the teensy.  In the background I have been exploring NiceGUI as a replacement technology for the operator station.  So far this has been really nice!
+I managed a day of flight testing.  There aren't major changes just little tweaks and fixes I have been making along the way in response to the previous test flight (last November, yikes, time flies!) I verified the fully autonomous hand launch task continues to work correctly after porting from the old python system to C++ on the teensy.  In the background I have been exploring NiceGUI as a replacement technology for the operator station.  So far this has been really nice!
 
 ## March, April, and May 2025: Also not a lot to report
 
