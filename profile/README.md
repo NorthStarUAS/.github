@@ -4,6 +4,10 @@
 
 This is a collection of all the UAS, flight control, EKF, ground station, data analysis, and mapping related work I've done since the middle 2000's.  Much of this was developed in my time working with Airborne Technologies out of Alaska (2007-ish to 2015.)  I continued using and developing this code during my time supporting various student and research projects as a staff research engineer at the University of Minnesota Aerospace Engineering (and Mechanics) department (2015-2022.)  This code is all licensed under the MIT license (the preferred license of my research group at UMN.) When covid hit our department funding pretty hard I had to go find a real job, but I continue to support, improve, and fiddle with this code in my hobby time.
 
+## July 2025: NiceGUI
+
+This project is for fun, learning, and experimentation so I'm not driving hard towards a particular goal or set of functionality right now.  I have been 'distracted' with the idea of a completely rewritten ground station/operator GUI using a python tool called "NiceGUI".  With NiceGUI you develop your code entirely in python in a single place, but it serves out the gui to a web page (any platform, any browser).  You could optionally us pywebview which makes your app appear to act like a native app without needing a separate web browser.  This effort simplifies the UI code quite a bit and opens up access to some newer features and allows me to pursue some ideas that have been floating around in the back of my brain for quite some time.
+
 ## June 2025: Flight Testing
 
 I managed a day of flight testing.  There aren't major changes just little tweaks and fixes I have been making along the way in response to the previous test flight (last November, yikes, time flies!) I verified the fully autonomous hand launch task continues to work correctly after porting from the old python system to C++ on the teensy.  In the background I have been exploring NiceGUI as a replacement technology for the operator station.  So far this has been really nice!
